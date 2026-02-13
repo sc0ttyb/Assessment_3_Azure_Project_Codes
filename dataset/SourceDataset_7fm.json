@@ -1,0 +1,27 @@
+{
+	"name": "SourceDataset_7fm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageYoobeeAssessment3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "raw",
+				"container": "tokyo-olympic-dataset"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
+	}
+}
