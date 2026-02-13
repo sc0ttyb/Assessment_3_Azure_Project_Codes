@@ -1,0 +1,9 @@
+{
+	"name": "scott-olympic-data-ingestion",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a362dd83-589a-4904-a1f4-f1daf8edbfb3",
+		"tenantId": "5252a429-fae6-408c-9e6c-4da4beb4166b"
+	}
+}
