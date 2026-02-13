@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_7fm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageYoobee",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw",
+				"fileSystem": "tokyo-olympic-dataset"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
